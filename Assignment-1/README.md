@@ -29,6 +29,7 @@ type  দিয়ে আমরা প্রিমিটিভ টাইপ, ইউ
 
 
 //interface
+<br/>
 এখানে আমরা পাবো name, age 
 ```
 interface Person {
@@ -43,6 +44,7 @@ interface Person {
 
 
 //type
+<br />
 কিন্তু এখানে আমরা error পাবো।
 ```
 type Person = {
@@ -55,6 +57,7 @@ type Person = {
 ```
 
 //interface
+<br />
 আর আমরা দুইটি interface একত্রে যুক্ত করতে পারি extends এর মাধ্যমে।
 
 ```
@@ -68,6 +71,7 @@ interface Cat extends Animal {
 ```
 
 //type
+<br/>
 আর আমরা দুইটি type কে যুক্ত করতে ব্যবহার করি ইন্টারসেকশন (&) চিহ্ন।
 ```
 type Animal = {
@@ -129,8 +133,9 @@ type Contact = {
 ```
 
 // দুটি টাইপকে একত্রিকরন।
+<br />
 type StaffProfile = Person & Contact;
-
+<br />
 // ব্যবহার
 ```
 const newStaff: StaffProfile = {
